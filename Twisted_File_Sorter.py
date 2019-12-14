@@ -22,10 +22,9 @@ def rName(the_file_dir, the_filename,file_obj):
         while os.path.exists(new_path):
             fn = file_obj.name
             fn_tup=os.path.splitext(fn)
-            new_flName="{0}{1}{2}".format(fn_tup[0],str(i),fn_tup[-1])
+            new_flName="{0}-{1}{2}".format(fn_tup[0],str(i),fn_tup[-1])
             #print(new_flName)
             new_path=os.path.join(os.path.join(dl_dir, the_file_dir), new_flName)
-
             i+=1
 
     print(file_obj.path, "==>", new_path)
