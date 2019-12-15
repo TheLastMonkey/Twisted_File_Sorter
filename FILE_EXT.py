@@ -29,7 +29,7 @@ image_file_tup = (".ai", ".bmp", ".gif", ".ico", ".jpeg", ".jpg", ".png", ".ps",
 # Internet related file extensions
 
 net_file_tup = (
-".asp", ".aspx", ".cer", ".cfm", ".cgi", ".pl", ".css", ".htm", ".html", ".js", ".jsp", ".part", ".php", ".py", ".rss",
+".asp", ".aspx", ".cer", ".cfm", ".cgi", ".pl", ".css", ".htm", ".html", ".js", ".jsp", ".php", ".py", ".rss",
 ".xhtml")
 
 # Presentation file formats by file extension
