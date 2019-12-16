@@ -15,20 +15,20 @@ You can also just run it once by using the command line and some simple command-
 -s or --source  
 Specify a path to the directory that contains the files to be stored.  
 This is a required argument.  
-`python3 Twisted_Files_Sorter.py -s ~/USER/Downloads/`  
+`python3 Twisted_File_Sorter.py -s ~/USER/Downloads/`  
   
 -v or --verbose  
-as it implies this will verbosely print out what's happening. 
+As it implies this will verbosely print out what's happening. 
 You could pipe this to a log if you prefer. It also outputs the time it took.  
-`python3 Twisted_Files_Sorter.py -v -s ~/USER/Downloads/`  
+`python3 Twisted_File_Sorter.py -v -s ~/USER/Downloads/`  
 
 #### Info  
-A couple things you need to know. the source that you specify is also the
+A couple things you need to know. The source that you specify is also the
  destination for the subdirectories that are named by the file types that 
  they contain. TFS does not mess with directories.  So if you have 
  subdirectories within your downloads folder those subdirectories will 
  not be touched.  This is to ensure that pre associated files are not 
- scattered in two different subdirectories. This is part of a do not 
+ scattered in to different subdirectories. This is part of a do not 
  disorganized philosophy.  
    
 TFS comes with its own custom modules that you can edit to your liking.
@@ -63,4 +63,4 @@ File_Type.py
 `elif f_ext in FILE_EXT.font_file_tup:
     return(FILE_DIR.font_dir)`
   
-Understanding this allows you to modify to your heart's content.  
+Understanding this allows you to modify as you see fit.  
